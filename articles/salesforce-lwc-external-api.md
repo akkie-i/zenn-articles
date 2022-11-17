@@ -3,7 +3,7 @@ title: "【Salesforce】LWCで外部APIを叩く方法"
 emoji: "⚡️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Salesforce", "LWC"]
-published: false
+published: true
 ---
 
 # はじめに
