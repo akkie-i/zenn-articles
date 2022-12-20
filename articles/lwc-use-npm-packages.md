@@ -477,8 +477,8 @@ vscode 上で `command⌘` + `shift⇧` + `p`でコマンドパレットを開�
 
 ```js:./force-app/main/default/lwc/usePackages/usePackages.js
 import { LightningElement } from "lwc";
-import { dayjs } from "c/npmPackages";
-import { isSameOrBefore } from "c/npmPackages";
+import { dayjs } from "c/dayjs";
+import { isSameOrBefore } from "c/dayjs";
 
 export default class UsePackages extends LightningElement {
   connectedCallback() {
