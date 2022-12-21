@@ -3,7 +3,7 @@ title: "【Google検索】ググり方を覚えよう"
 emoji: "🔎"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["google", "chrome", "検索", "作業効率"]
-published: false
+published: true
 ---
 
 # はじめに
