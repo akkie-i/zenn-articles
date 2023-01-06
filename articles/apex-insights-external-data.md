@@ -3,7 +3,7 @@ title: "【salesforce】Einstein AnalyticsへCSVアップロード"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["salesforce", "EinsteinAnalytics", "Apex", "InsightsExternalDataAPI"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -104,7 +104,7 @@ taro,taro@example.com,男,20,千葉
 
 # データがアップロードされるまでの流れ
 
-アップロード先を作成と一緒に 1 件データもアップロードしてみましたが、これがどういう仕組みでアップロードされているのかを確認してみます。
+アップロード先の作成と一緒に 1 件データもアップロードしてみましたが、これがどういう仕組みでアップロードされているのかを確認してみます。
 
 アップロードには [Insights External Data API](https://developer.salesforce.com/docs/atlas.ja-jp.bi_dev_guide_ext_data.meta/bi_dev_guide_ext_data/bi_ext_data_overview.htm) が使われています。
 
