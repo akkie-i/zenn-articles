@@ -3,14 +3,12 @@ title: "【salesforce】InsightsExternalData APIをLWCで使う"
 emoji: "⚡️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["salesforce", "EinsteinAnalytics", "LWC", "InsightsExternalDataAPI"]
-published: false
+published: true
 ---
-
-TODO リンクの埋め込み、github のリンクつける
 
 # はじめに
 
-[こちらの記事]()で取り扱いました salesforce の [Insights External Data API](https://developer.salesforce.com/docs/atlas.ja-jp.bi_dev_guide_ext_data.meta/bi_dev_guide_ext_data/bi_ext_data_overview.htm) の内容を Lightning Web Component(以降 LWC)で実装しましたので記事にします。
+[こちらの記事](https://zenn.dev/akkie1030/articles/apex-insights-external-data)で取り扱いました salesforce の [Insights External Data API](https://developer.salesforce.com/docs/atlas.ja-jp.bi_dev_guide_ext_data.meta/bi_dev_guide_ext_data/bi_ext_data_overview.htm) の内容を Lightning Web Component(以降 LWC)で実装しましたので記事にします。
 
 ## この記事でわかること
 
@@ -26,7 +24,7 @@ TODO リンクの埋め込み、github のリンクつける
 
 - Einstein Analytics を試せるデベロッパー環境は準備済みの前提です
   - 用意されてない方は [こちら](https://trailhead.salesforce.com/ja/promo/orgs/analytics-de) よりアカウントを発行してください。
-- [前回記事]()はすでに読まれて Insights External Data API の知識は習得済みの前提です。
+- [前回記事](https://zenn.dev/akkie1030/articles/apex-insights-external-data)はすでに読まれて Insights External Data API の知識は習得済みの前提です。
 
 :::
 
@@ -46,6 +44,8 @@ TODO リンクの埋め込み、github のリンクつける
 - node v18.2.0
 
 ## GitHub
+
+https://github.com/akkie-i/lwc-samples/tree/main/force-app/main/default/lwc/csvUploadToEA
 
 # 機能一覧
 
@@ -83,7 +83,7 @@ TODO リンクの埋め込み、github のリンクつける
 
 では機能一覧に沿って実装を進めていきます。
 
-今回 Apex の実装部分は [前回記事]() でほぼできているので特段説明などは行いません。
+今回 Apex の実装部分は [前回記事](https://zenn.dev/akkie1030/articles/apex-insights-external-data) でほぼできているので特段説明などは行いません。
 以下のコードをコピペしてあらかじめ作成しておいてください。
 
 :::details Apex コード
